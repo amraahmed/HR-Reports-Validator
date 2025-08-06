@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Data Processor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f72 0%, #1a1a8a 100%);
+            min-height: 100vh;
+            color: #FFFFFF;
+        }
+        .header {
+            background-color: rgba(15, 15, 114, 0.9);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        .logo-container {
+            position: absolute;
+            top: 50%;
+            left: 2rem;
+            transform: translateY(-50%);
+        }
+        .logo {
+            max-height: 60px;
+            max-width: 200px;
+            object-fit: contain;
+        }
+        .header-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #f0fa00;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 3rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            color: #0f0f72;
+        }
+        .card-title {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #0f0f72;
+            text-align: center;
+            font-weight: bold;
+        }
+        .card-description {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .upload-area {
+            border: 3px dashed #0f0f72;
+            border-radius: 10px;
+            padding: 3rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            background-color: #f8f9ff;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        .upload-area:hover {
+            border-color: #f0fa00;
+            background-color: #fffbcc;
+            transform: translateY(-2px);
+        }
+        .upload-area.dragover {
+            border-color: #f0fa00;
+            background-color: #fffbcc;
+            transform: scale(1.02);
+        }
+        .upload-icon {
+            font-size: 4rem;
+            color: #0f0f72;
+            margin-bottom: 1rem;
+        }
+        .upload-text {
+            font-size: 1.2rem;
+            color: #0f0f72;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        .upload-subtext {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .file-input {
+            display: none;
+        }
+        .upload-btn {
+            background: linear-gradient(135deg, #0f0f72, #1a1a8a);
+            color: #FFFFFF;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+            font-weight: 600;
+        }
+        .upload-btn:hover {
+            background: linear-gradient(135deg, #1a1a8a, #0f0f72);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(15, 15, 114, 0.4);
+        }
+        .upload-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .selected-file {
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #e8f5e8;
+            border-radius: 8px;
+            border-left: 4px solid #f0fa00;
+        }
+        .selected-file-name {
+            font-weight: 600;
+            color: #0f0f72;
+        }
+        .selected-file-size {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #0f0f72;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .error-message {
+            background-color: #ffe6e6;
+            color: #d63031;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border-left: 4px solid #d63031;
+            display: none;
+        }
+        .success-message {
+            background-color: #e8f5e8;
+            color: #00b894;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border-left: 4px solid #00b894;
+            display: none;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background-color: #e0e0e0;
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 1rem;
+            display: none;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #0f0f72, #f0fa00);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .header {
+                padding: 1rem;
+            }
+            .logo-container {
+                position: static;
+                transform: none;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            .header-title {
+                font-size: 1.5rem;
+            }
+            .container {
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+            .card {
+                padding: 2rem;
+            }
+            .upload-area {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="/static/logo.svg" alt="Company Logo" class="logo" id="logo">
+        </div>
+        <h1 class="header-title">Excel Data Processor</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2 class="card-title">Upload & Process Your Excel File</h2>
+            <p class="card-description">
+                Upload your Excel file (.xlsx or .xls) and our system will process it using advanced algorithms 
+                to generate a comprehensive text report for download.
+            </p>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <!-- CSRF token will be added here dynamically -->
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📊</div>
+                    <div class="upload-text">Drag & Drop your Excel file here</div>
+                    <div class="upload-subtext">or click to browse files</div>
+                    <input type="file" id="fileInput" class="file-input" accept=".xlsx,.xls" required>
+                </div>
+                <div class="selected-file" id="selectedFile" style="display: none;">
+                    <div class="selected-file-name" id="fileName"></div>
+                    <div class="selected-file-size" id="fileSize"></div>
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit" class="upload-btn" id="uploadBtn">
+                        Process Excel File
+                    </button>
+                </div>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <div>Processing your file...</div>
+                </div>
+                <div class="error-message" id="errorMessage"></div>
+                <div class="success-message" id="successMessage"></div>
+            </form>
+        </div>
+    </div>
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const selectedFile = document.getElementById('selectedFile');
+        const fileName = document.getElementById('fileName');
+        const fileSize = document.getElementById('fileSize');
+        const uploadForm = document.getElementById('uploadForm');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const loading = document.getElementById('loading');
+        const errorMessage = document.getElementById('errorMessage');
+        const successMessage = document.getElementById('successMessage');
+        const progressBar = document.getElementById('progressBar');
+        const progressFill = document.getElementById('progressFill');
+        const logo = document.getElementById('logo');
+
+        // Handle logo error (hide if not found)
+        logo.onerror = function() {
+            this.style.display = 'none';
+        };
+
+        // Get CSRF token
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        // Click to browse files
+        uploadArea.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        // Drag and drop functionality
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                fileInput.files = files;
+                handleFileSelect();
+            }
+        });
+
+        // File input change
+        fileInput.addEventListener('change', handleFileSelect);
+
+        function handleFileSelect() {
+            const file = fileInput.files[0];
+            if (file) {
+                // Validate file type
+                const allowedTypes = ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-excel'];
+                const fileExtension = file.name.split('.').pop().toLowerCase();
+                
+                if (!allowedTypes.includes(file.type) && !['xlsx', 'xls'].includes(fileExtension)) {
+                    showError('Please select a valid Excel file (.xlsx or .xls)');
+                    fileInput.value = '';
+                    return;
+                }
+
+                fileName.textContent = file.name;
+                fileSize.textContent = formatFileSize(file.size);
+                selectedFile.style.display = 'block';
+                hideMessages();
+            }
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        function hideMessages() {
+            errorMessage.style.display = 'none';
+            successMessage.style.display = 'none';
+        }
+
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.style.display = 'block';
+            successMessage.style.display = 'none';
+        }
+
+        function showSuccess(message) {
+            successMessage.textContent = message;
+            successMessage.style.display = 'block';
+            errorMessage.style.display = 'none';
+        }
+
+        // Form submission
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            if (!fileInput.files[0]) {
+                showError('Please select a file to upload.');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('excel_file', fileInput.files[0]);
+            
+            // Add CSRF token
+            const csrftoken = getCookie('csrftoken');
+            if (csrftoken) {
+                formData.append('csrfmiddlewaretoken', csrftoken);
+            }
+
+            // Show loading state
+            uploadBtn.disabled = true;
+            loading.style.display = 'block';
+            progressBar.style.display = 'block';
+            hideMessages();
+
+            // Simulate progress
+            let progress = 0;
+            const progressInterval = setInterval(() => {
+                progress += Math.random() * 15;
+                if (progress > 90) progress = 90;
+                progressFill.style.width = progress + '%';
+            }, 200);
+
+            try {
+                const response = await fetch('/upload/', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'X-CSRFToken': csrftoken || ''
+                    }
+                });
+
+                clearInterval(progressInterval);
+                progressFill.style.width = '100%';
+
+                if (response.ok) {
+                    // Check content type to determine response type
+                    const contentType = response.headers.get('content-type');
+                    
+                    if (contentType && contentType.includes('application/json')) {
+                        // JSON response (likely an error)
+                        const result = await response.json();
+                        if (result.error) {
+                            showError(result.error);
+                        } else {
+                            showError('An unexpected error occurred');
+                        }
+                    } else {
+                        // File download
+                        const blob = await response.blob();
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        
+                        // Get filename from Content-Disposition header
+                        const contentDisposition = response.headers.get('Content-Disposition');
+                        let filename = 'processed_data.txt';
+                        if (contentDisposition) {
+                            const filenameMatch = contentDisposition.match(/filename[^;=\n]*=((['"]).*?\2|[^;\n]*)/);
+                            if (filenameMatch) {
+                                filename = filenameMatch[1].replace(/['"]/g, '');
+                            }
+                        }
+                        
+                        a.download = filename;
+                        document.body.appendChild(a);
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                        document.body.removeChild(a);
+                        
+                        showSuccess('File processed successfully! Download started.');
+                        
+                        // Reset form after success
+                        setTimeout(() => {
+                            fileInput.value = '';
+                            selectedFile.style.display = 'none';
+                            hideMessages();
+                        }, 3000);
+                    }
+                } else {
+                    // Handle HTTP error status codes
+                    let errorMessage = `HTTP Error: ${response.status}`;
+                    
+                    try {
+                        const result = await response.json();
+                        errorMessage = result.error || result.detail || errorMessage;
+                    } catch (e) {
+                        // If response is not JSON, try to get text
+                        try {
+                            const text = await response.text();
+                            if (text.includes('<!DOCTYPE') || text.includes('<html')) {
+                                errorMessage = 'Server returned an HTML page instead of expected response. Check if the upload endpoint is correctly configured.';
+                            } else {
+                                errorMessage = text || errorMessage;
+                            }
+                        } catch (textError) {
+                            // Use the default error message
+                        }
+                    }
+                    
+                    showError(errorMessage);
+                }
+            } catch (error) {
+                clearInterval(progressInterval);
+                console.error('Network error:', error);
+                showError('Network error: ' + error.message);
+            } finally {
+                uploadBtn.disabled = false;
+                loading.style.display = 'none';
+                progressBar.style.display = 'none';
+                progressFill.style.width = '0%';
+            }
+        });
+    </script>
+</body>
+</html>

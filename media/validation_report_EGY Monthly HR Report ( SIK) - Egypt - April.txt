@@ -1,0 +1,831 @@
+VALIDATION ERRORS FOUND:
+================================================================================
+
+Row 2, MONTH: '4' should be '07' (previous month)
+Row 2, BIRTH DATE: '1979-04-21 00:00:00' is not in YYYYMMDD format
+Row 2, GENDER: 'MALE' must be 'M' or 'F'
+Row 2, HIRING DATE: '2024-10-01 00:00:00' is not in YYYYMMDD format
+Row 2, TOTAL COST_INVOICE: '1305388.3499999999' does not equal sum of cost columns '2254100.54'
+Row 3, MONTH: '4' should be '07' (previous month)
+Row 3, BIRTH DATE: '1979-03-03 00:00:00' is not in YYYYMMDD format
+Row 3, GENDER: 'MALE' must be 'M' or 'F'
+Row 3, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 3, TOTAL COST_INVOICE: '332746.05' does not equal sum of cost columns '576778.90'
+Row 4, MONTH: '4' should be '07' (previous month)
+Row 4, BIRTH DATE: '1980-12-17 00:00:00' is not in YYYYMMDD format
+Row 4, GENDER: 'MALE' must be 'M' or 'F'
+Row 4, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 4, TOTAL COST_INVOICE: '345703.14' does not equal sum of cost columns '597002.37'
+Row 5, MONTH: '4' should be '07' (previous month)
+Row 5, BIRTH DATE: '1974-10-16 00:00:00' is not in YYYYMMDD format
+Row 5, GENDER: 'MALE' must be 'M' or 'F'
+Row 5, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 5, TOTAL COST_INVOICE: '345703.14' does not equal sum of cost columns '597002.37'
+Row 5, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 6, MONTH: '4' should be '07' (previous month)
+Row 6, BIRTH DATE: '1976-02-07 00:00:00' is not in YYYYMMDD format
+Row 6, GENDER: 'MALE' must be 'M' or 'F'
+Row 6, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 6, TOTAL COST_INVOICE: '165652.75' does not equal sum of cost columns '285500.39'
+Row 6, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 7, MONTH: '4' should be '07' (previous month)
+Row 7, BIRTH DATE: '1983-12-16 00:00:00' is not in YYYYMMDD format
+Row 7, GENDER: 'MALE' must be 'M' or 'F'
+Row 7, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 7, TOTAL COST_INVOICE: '158961.75' does not equal sum of cost columns '273961.76'
+Row 7, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 8, MONTH: '4' should be '07' (previous month)
+Row 8, BIRTH DATE: '1987-03-04 00:00:00' is not in YYYYMMDD format
+Row 8, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 8, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 8, TOTAL COST_INVOICE: '54110.75' does not equal sum of cost columns '93953.64'
+Row 9, MONTH: '4' should be '07' (previous month)
+Row 9, BIRTH DATE: '1997-06-01 00:00:00' is not in YYYYMMDD format
+Row 9, GENDER: 'MALE' must be 'M' or 'F'
+Row 9, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 9, TOTAL COST_INVOICE: '95832.86' does not equal sum of cost columns '165675.64'
+Row 9, FUNCTION: 'MARKETING AND COMMUNICATION' is not a valid function
+Row 10, MONTH: '4' should be '07' (previous month)
+Row 10, BIRTH DATE: '1973-11-17 00:00:00' is not in YYYYMMDD format
+Row 10, GENDER: 'MALE' must be 'M' or 'F'
+Row 10, HIRING DATE: '2024-11-15 00:00:00' is not in YYYYMMDD format
+Row 10, TOTAL COST_INVOICE: '332746.05' does not equal sum of cost columns '576778.90'
+Row 11, MONTH: '4' should be '07' (previous month)
+Row 11, BIRTH DATE: '1989-11-01 00:00:00' is not in YYYYMMDD format
+Row 11, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 11, HIRING DATE: '2024-11-16 00:00:00' is not in YYYYMMDD format
+Row 11, TOTAL COST_INVOICE: '284273.1' does not equal sum of cost columns '490061.18'
+Row 12, MONTH: '4' should be '07' (previous month)
+Row 12, BIRTH DATE: '1999-06-10 00:00:00' is not in YYYYMMDD format
+Row 12, GENDER: 'MALE' must be 'M' or 'F'
+Row 12, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 12, TOTAL COST_INVOICE: '58618.006250000006' does not equal sum of cost columns '101505.75'
+Row 12, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 13, MONTH: '4' should be '07' (previous month)
+Row 13, BIRTH DATE: '2002-03-29 00:00:00' is not in YYYYMMDD format
+Row 13, GENDER: 'MALE' must be 'M' or 'F'
+Row 13, HIRING DATE: '2024-12-15 00:00:00' is not in YYYYMMDD format
+Row 13, TOTAL COST_INVOICE: '21381.75' does not equal sum of cost columns '36214.32'
+Row 13, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 14, MONTH: '4' should be '07' (previous month)
+Row 14, BIRTH DATE: '2001-05-31 00:00:00' is not in YYYYMMDD format
+Row 14, GENDER: 'MALE' must be 'M' or 'F'
+Row 14, HIRING DATE: '2024-12-15 00:00:00' is not in YYYYMMDD format
+Row 14, TOTAL COST_INVOICE: '40978.088002334494' does not equal sum of cost columns '70978.05'
+Row 14, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 15, MONTH: '4' should be '07' (previous month)
+Row 15, BIRTH DATE: '1976-10-09 00:00:00' is not in YYYYMMDD format
+Row 15, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 15, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 15, TOTAL COST_INVOICE: '207270.75' does not equal sum of cost columns '357270.63'
+Row 16, MONTH: '4' should be '07' (previous month)
+Row 16, BIRTH DATE: '1982-06-14 00:00:00' is not in YYYYMMDD format
+Row 16, GENDER: 'MALE' must be 'M' or 'F'
+Row 16, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 16, TOTAL COST_INVOICE: '117040.34375' does not equal sum of cost columns '201668.29'
+Row 16, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 17, MONTH: '4' should be '07' (previous month)
+Row 17, BIRTH DATE: '1979-11-21 00:00:00' is not in YYYYMMDD format
+Row 17, GENDER: 'MALE' must be 'M' or 'F'
+Row 17, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 17, TOTAL COST_INVOICE: '102504.43' does not equal sum of cost columns '177347.55'
+Row 18, MONTH: '4' should be '07' (previous month)
+Row 18, BIRTH DATE: '1995-02-04 00:00:00' is not in YYYYMMDD format
+Row 18, GENDER: 'MALE' must be 'M' or 'F'
+Row 18, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 18, TOTAL COST_INVOICE: '95833.39' does not equal sum of cost columns '165676.56'
+Row 19, MONTH: '4' should be '07' (previous month)
+Row 19, BIRTH DATE: '2001-02-11 00:00:00' is not in YYYYMMDD format
+Row 19, GENDER: 'MALE' must be 'M' or 'F'
+Row 19, HIRING DATE: '2024-12-15 00:00:00' is not in YYYYMMDD format
+Row 19, TOTAL COST_INVOICE: '47439.75' does not equal sum of cost columns '82282.72'
+Row 20, MONTH: '4' should be '07' (previous month)
+Row 20, BIRTH DATE: '1998-07-02 00:00:00' is not in YYYYMMDD format
+Row 20, GENDER: 'MALE' must be 'M' or 'F'
+Row 20, HIRING DATE: '2024-12-15 00:00:00' is not in YYYYMMDD format
+Row 20, TOTAL COST_INVOICE: '97500.75' does not equal sum of cost columns '168593.61'
+Row 21, MONTH: '4' should be '07' (previous month)
+Row 21, BIRTH DATE: '1994-04-15 00:00:00' is not in YYYYMMDD format
+Row 21, GENDER: 'MALE' must be 'M' or 'F'
+Row 21, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 21, TOTAL COST_INVOICE: '21381.75' does not equal sum of cost columns '36214.32'
+Row 21, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 22, MONTH: '4' should be '07' (previous month)
+Row 22, BIRTH DATE: '1999-12-04 00:00:00' is not in YYYYMMDD format
+Row 22, GENDER: 'MALE' must be 'M' or 'F'
+Row 22, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 22, TOTAL COST_INVOICE: '54110.75' does not equal sum of cost columns '93953.64'
+Row 23, MONTH: '4' should be '07' (previous month)
+Row 23, BIRTH DATE: '1982-04-09 00:00:00' is not in YYYYMMDD format
+Row 23, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 23, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 23, TOTAL COST_INVOICE: '27803.73' does not equal sum of cost columns '47641.76'
+Row 23, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 24, MONTH: '4' should be '07' (previous month)
+Row 24, BIRTH DATE: '1998-01-23 00:00:00' is not in YYYYMMDD format
+Row 24, GENDER: 'MALE' must be 'M' or 'F'
+Row 24, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 24, TOTAL COST_INVOICE: '40768.75' does not equal sum of cost columns '70611.81'
+Row 24, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 25, MONTH: '4' should be '07' (previous month)
+Row 25, BIRTH DATE: '2001-03-03 00:00:00' is not in YYYYMMDD format
+Row 25, GENDER: 'MALE' must be 'M' or 'F'
+Row 25, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 25, TOTAL COST_INVOICE: '40768.75' does not equal sum of cost columns '70611.81'
+Row 25, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 26, MONTH: '4' should be '07' (previous month)
+Row 26, BIRTH DATE: '1989-11-12 00:00:00' is not in YYYYMMDD format
+Row 26, GENDER: 'MALE' must be 'M' or 'F'
+Row 26, HIRING DATE: '2024-12-16 00:00:00' is not in YYYYMMDD format
+Row 26, TOTAL COST_INVOICE: '51186.9875' does not equal sum of cost columns '88838.52'
+Row 26, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 27, MONTH: '4' should be '07' (previous month)
+Row 27, BIRTH DATE: '1978-03-08 00:00:00' is not in YYYYMMDD format
+Row 27, GENDER: 'MALE' must be 'M' or 'F'
+Row 27, HIRING DATE: '2024-12-15 00:00:00' is not in YYYYMMDD format
+Row 27, TOTAL COST_INVOICE: '47439.75' does not equal sum of cost columns '80399.38'
+Row 27, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 28, MONTH: '4' should be '07' (previous month)
+Row 28, BIRTH DATE: '1991-07-15 00:00:00' is not in YYYYMMDD format
+Row 28, GENDER: 'MALE' must be 'M' or 'F'
+Row 28, HIRING DATE: '2024-12-09 00:00:00' is not in YYYYMMDD format
+Row 28, TOTAL COST_INVOICE: '51601.0' does not equal sum of cost columns '91601.00'
+Row 29, MONTH: '4' should be '07' (previous month)
+Row 29, BIRTH DATE: '1996-02-11 00:00:00' is not in YYYYMMDD format
+Row 29, GENDER: 'MALE' must be 'M' or 'F'
+Row 29, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 29, TOTAL COST_INVOICE: '48983.34' does not equal sum of cost columns '84983.23'
+Row 29, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 30, MONTH: '4' should be '07' (previous month)
+Row 30, BIRTH DATE: '1989-07-02 00:00:00' is not in YYYYMMDD format
+Row 30, GENDER: 'MALE' must be 'M' or 'F'
+Row 30, HIRING DATE: '2024-12-15 00:00:00' is not in YYYYMMDD format
+Row 30, TOTAL COST_INVOICE: '182216.75' does not equal sum of cost columns '314065.01'
+Row 31, MONTH: '4' should be '07' (previous month)
+Row 31, BIRTH DATE: '1993-03-15 00:00:00' is not in YYYYMMDD format
+Row 31, GENDER: 'MALE' must be 'M' or 'F'
+Row 31, HIRING DATE: '2025-01-03 00:00:00' is not in YYYYMMDD format
+Row 31, TOTAL COST_INVOICE: '82717.87' does not equal sum of cost columns '142730.96'
+Row 31, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 31: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 32, MONTH: '4' should be '07' (previous month)
+Row 32, BIRTH DATE: '2002-12-17 00:00:00' is not in YYYYMMDD format
+Row 32, GENDER: 'MALE' must be 'M' or 'F'
+Row 32, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 32, GROSS SALARY: '-' must be a number
+Row 32, LIQUID SALARY -: '-' must be a number
+Row 32, TOTAL COST_INVOICE: '35000.0' does not equal sum of cost columns '0.00'
+Row 32, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 32: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 33, MONTH: '4' should be '07' (previous month)
+Row 33, BIRTH DATE: '1981-08-16 00:00:00' is not in YYYYMMDD format
+Row 33, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 33, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 33, TOTAL COST_INVOICE: '335464.8' does not equal sum of cost columns '578341.27'
+Row 34, MONTH: '4' should be '07' (previous month)
+Row 34, BIRTH DATE: '1995-07-15 00:00:00' is not in YYYYMMDD format
+Row 34, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 34, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 34, TOTAL COST_INVOICE: '61226.75' does not equal sum of cost columns '106069.75'
+Row 35, MONTH: '4' should be '07' (previous month)
+Row 35, BIRTH DATE: '1973-10-17 00:00:00' is not in YYYYMMDD format
+Row 35, GENDER: 'MALE' must be 'M' or 'F'
+Row 35, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 35, TOTAL COST_INVOICE: '335464.8' does not equal sum of cost columns '576457.93'
+Row 35, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 36, MONTH: '4' should be '07' (previous month)
+Row 36, BIRTH DATE: '1998-03-14 00:00:00' is not in YYYYMMDD format
+Row 36, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 36, HIRING DATE: '2024-11-24 00:00:00' is not in YYYYMMDD format
+Row 36, TOTAL COST_INVOICE: '12041.0' does not equal sum of cost columns '22041.00'
+Row 37, MONTH: '4' should be '07' (previous month)
+Row 37, BIRTH DATE: '1987-06-08 00:00:00' is not in YYYYMMDD format
+Row 37, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 37, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 37, TOTAL COST_INVOICE: '335464.8' does not equal sum of cost columns '578341.27'
+Row 37: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 38, MONTH: '4' should be '07' (previous month)
+Row 38, BIRTH DATE: '1997-08-03 00:00:00' is not in YYYYMMDD format
+Row 38, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 38, HIRING DATE: '2024-12-24 00:00:00' is not in YYYYMMDD format
+Row 38, TOTAL COST_INVOICE: '14774.0' does not equal sum of cost columns '26774.00'
+Row 39, MONTH: '4' should be '07' (previous month)
+Row 39, BIRTH DATE: '2000-09-12 00:00:00' is not in YYYYMMDD format
+Row 39, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 39, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 39, TOTAL COST_INVOICE: '12041.0' does not equal sum of cost columns '22041.00'
+Row 40, MONTH: '4' should be '07' (previous month)
+Row 40, BIRTH DATE: '2000-04-15 00:00:00' is not in YYYYMMDD format
+Row 40, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 40, HIRING DATE: '2024-12-12 00:00:00' is not in YYYYMMDD format
+Row 40, GROSS SALARY: '-' must be a number
+Row 40, LIQUID SALARY -: '-' must be a number
+Row 40, TOTAL COST_INVOICE: '25000.0' does not equal sum of cost columns '0.00'
+Row 41, MONTH: '4' should be '07' (previous month)
+Row 41, BIRTH DATE: '2000-04-01 00:00:00' is not in YYYYMMDD format
+Row 41, GENDER: 'MALE' must be 'M' or 'F'
+Row 41, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 41, TOTAL COST_INVOICE: '40768.75' does not equal sum of cost columns '70611.81'
+Row 41, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 42, MONTH: '4' should be '07' (previous month)
+Row 42, BIRTH DATE: '2000-09-24 00:00:00' is not in YYYYMMDD format
+Row 42, GENDER: 'MALE' must be 'M' or 'F'
+Row 42, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 42, TOTAL COST_INVOICE: '34468.75' does not equal sum of cost columns '59468.83'
+Row 42, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 43, MONTH: '4' should be '07' (previous month)
+Row 43, BIRTH DATE: '1999-05-08 00:00:00' is not in YYYYMMDD format
+Row 43, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 43, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 43, TOTAL COST_INVOICE: '21381.75' does not equal sum of cost columns '36214.32'
+Row 43, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 44, MONTH: '4' should be '07' (previous month)
+Row 44, BIRTH DATE: '1997-02-15 00:00:00' is not in YYYYMMDD format
+Row 44, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 44, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 44, TOTAL COST_INVOICE: '40768.75' does not equal sum of cost columns '70611.81'
+Row 44, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 44: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 45, MONTH: '4' should be '07' (previous month)
+Row 45, BIRTH DATE: '1999-07-25 00:00:00' is not in YYYYMMDD format
+Row 45, GENDER: 'MALE' must be 'M' or 'F'
+Row 45, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 45, TOTAL COST_INVOICE: '40768.75' does not equal sum of cost columns '70611.81'
+Row 46, MONTH: '4' should be '07' (previous month)
+Row 46, BIRTH DATE: '1998-06-05 00:00:00' is not in YYYYMMDD format
+Row 46, GENDER: 'MALE' must be 'M' or 'F'
+Row 46, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 46, TOTAL COST_INVOICE: '49907.62555555554' does not equal sum of cost columns '86600.28'
+Row 46, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 47, MONTH: '4' should be '07' (previous month)
+Row 47, BIRTH DATE: '2002-09-21 00:00:00' is not in YYYYMMDD format
+Row 47, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 47, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 47, TOTAL COST_INVOICE: '21381.75' does not equal sum of cost columns '36214.32'
+Row 47, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 48, MONTH: '4' should be '07' (previous month)
+Row 48, BIRTH DATE: '2000-09-12 00:00:00' is not in YYYYMMDD format
+Row 48, GENDER: 'MALE' must be 'M' or 'F'
+Row 48, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 48, TOTAL COST_INVOICE: '21381.75' does not equal sum of cost columns '36214.32'
+Row 48, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 49, MONTH: '4' should be '07' (previous month)
+Row 49, BIRTH DATE: '1997-11-14 00:00:00' is not in YYYYMMDD format
+Row 49, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 49, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 49, TOTAL COST_INVOICE: '30385.75' does not equal sum of cost columns '52223.55'
+Row 49, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 50, MONTH: '4' should be '07' (previous month)
+Row 50, BIRTH DATE: '1996-01-01 00:00:00' is not in YYYYMMDD format
+Row 50, GENDER: 'MALE' must be 'M' or 'F'
+Row 50, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 50, TOTAL COST_INVOICE: '41612.16924999999' does not equal sum of cost columns '72087.37'
+Row 50, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 50: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 51, MONTH: '4' should be '07' (previous month)
+Row 51, BIRTH DATE: '1999-01-27 00:00:00' is not in YYYYMMDD format
+Row 51, GENDER: 'MALE' must be 'M' or 'F'
+Row 51, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 51, TOTAL COST_INVOICE: '35549.75' does not equal sum of cost columns '61387.07'
+Row 51, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 52, MONTH: '4' should be '07' (previous month)
+Row 52, BIRTH DATE: '1983-03-13 00:00:00' is not in YYYYMMDD format
+Row 52, GENDER: 'MALE' must be 'M' or 'F'
+Row 52, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 52, TOTAL COST_INVOICE: '165862.75' does not equal sum of cost columns '285862.54'
+Row 52, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 53, MONTH: '4' should be '07' (previous month)
+Row 53, BIRTH DATE: '1984-10-01 00:00:00' is not in YYYYMMDD format
+Row 53, GENDER: 'MALE' must be 'M' or 'F'
+Row 53, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 53, TOTAL COST_INVOICE: '158751.75' does not equal sum of cost columns '273599.62'
+Row 53, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 54, MONTH: '4' should be '07' (previous month)
+Row 54, BIRTH DATE: '1996-03-02 00:00:00' is not in YYYYMMDD format
+Row 54, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 54, HIRING DATE: '2024-11-03 00:00:00' is not in YYYYMMDD format
+Row 54, TOTAL COST_INVOICE: '68412.75' does not equal sum of cost columns '118412.75'
+Row 55, MONTH: '4' should be '07' (previous month)
+Row 55, BIRTH DATE: '1989-11-01 00:00:00' is not in YYYYMMDD format
+Row 55, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 55, HIRING DATE: '2024-11-01 00:00:00' is not in YYYYMMDD format
+Row 56, MONTH: '4' should be '07' (previous month)
+Row 56, BIRTH DATE: '1985-09-23 00:00:00' is not in YYYYMMDD format
+Row 56, GENDER: 'MALE' must be 'M' or 'F'
+Row 56, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 56, TOTAL COST_INVOICE: '89161.75' does not equal sum of cost columns '154004.53'
+Row 56, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 56: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 57, MONTH: '4' should be '07' (previous month)
+Row 57, BIRTH DATE: '1986-12-07 00:00:00' is not in YYYYMMDD format
+Row 57, GENDER: 'MALE' must be 'M' or 'F'
+Row 57, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 57, TOTAL COST_INVOICE: '46105.75' does not equal sum of cost columns '79948.89'
+Row 57, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 58, MONTH: '4' should be '07' (previous month)
+Row 58, BIRTH DATE: '1976-10-05 00:00:00' is not in YYYYMMDD format
+Row 58, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 58, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 58, TOTAL COST_INVOICE: '138047.75' does not equal sum of cost columns '237895.57'
+Row 59, MONTH: '4' should be '07' (previous month)
+Row 59, BIRTH DATE: '1990-08-18 00:00:00' is not in YYYYMMDD format
+Row 59, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 59, HIRING DATE: '2025-01-17 00:00:00' is not in YYYYMMDD format
+Row 59, TOTAL COST_INVOICE: '124245.91' does not equal sum of cost columns '214094.30'
+Row 59, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 59: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 60, MONTH: '4' should be '07' (previous month)
+Row 60, BIRTH DATE: '1991-10-17 00:00:00' is not in YYYYMMDD format
+Row 60, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 60, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 60, TOTAL COST_INVOICE: '61435.75' does not equal sum of cost columns '106435.39'
+Row 60, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 61, MONTH: '4' should be '07' (previous month)
+Row 61, BIRTH DATE: '2001-08-04 00:00:00' is not in YYYYMMDD format
+Row 61, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 61, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 61, TOTAL COST_INVOICE: '40978.088002334494' does not equal sum of cost columns '70978.05'
+Row 61, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 62, MONTH: '4' should be '07' (previous month)
+Row 62, BIRTH DATE: '1991-12-15 00:00:00' is not in YYYYMMDD format
+Row 62, GENDER: 'MALE' must be 'M' or 'F'
+Row 62, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 62, TOTAL COST_INVOICE: '75263.75' does not equal sum of cost columns '130106.64'
+Row 62, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 63, MONTH: '4' should be '07' (previous month)
+Row 63, BIRTH DATE: '1987-12-19 00:00:00' is not in YYYYMMDD format
+Row 63, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 63, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 63, TOTAL COST_INVOICE: '49650.70555555556' does not equal sum of cost columns '86150.79'
+Row 63, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 64, MONTH: '4' should be '07' (previous month)
+Row 64, BIRTH DATE: '1999-09-14 00:00:00' is not in YYYYMMDD format
+Row 64, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 64, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 64, TOTAL COST_INVOICE: '44816.18555555555' does not equal sum of cost columns '77692.80'
+Row 64, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 65, MONTH: '4' should be '07' (previous month)
+Row 65, BIRTH DATE: '1998-04-04 00:00:00' is not in YYYYMMDD format
+Row 65, GENDER: 'MALE' must be 'M' or 'F'
+Row 65, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 65, TOTAL COST_INVOICE: '34468.47903118226' does not equal sum of cost columns '59468.35'
+Row 65, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 66, MONTH: '4' should be '07' (previous month)
+Row 66, BIRTH DATE: '1995-08-22 00:00:00' is not in YYYYMMDD format
+Row 66, GENDER: 'MALE' must be 'M' or 'F'
+Row 66, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 66, TOTAL COST_INVOICE: '47823.305555555555' does not equal sum of cost columns '82953.76'
+Row 66, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 67, MONTH: '4' should be '07' (previous month)
+Row 67, BIRTH DATE: '1995-08-29 00:00:00' is not in YYYYMMDD format
+Row 67, GENDER: 'MALE' must be 'M' or 'F'
+Row 67, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 67, TOTAL COST_INVOICE: '61310.776666666665' does not equal sum of cost columns '106216.75'
+Row 67, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 68, MONTH: '4' should be '07' (previous month)
+Row 68, BIRTH DATE: '1996-07-01 00:00:00' is not in YYYYMMDD format
+Row 68, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 68, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 68, TOTAL COST_INVOICE: '34258.75' does not equal sum of cost columns '59096.19'
+Row 68, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 69, MONTH: '4' should be '07' (previous month)
+Row 69, BIRTH DATE: '1983-10-14 00:00:00' is not in YYYYMMDD format
+Row 69, GENDER: 'MALE' must be 'M' or 'F'
+Row 69, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 69, TOTAL COST_INVOICE: '34258.75' does not equal sum of cost columns '59096.19'
+Row 69, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 70, MONTH: '4' should be '07' (previous month)
+Row 70, BIRTH DATE: '1981-04-17 00:00:00' is not in YYYYMMDD format
+Row 70, GENDER: 'MALE' must be 'M' or 'F'
+Row 70, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 70, TOTAL COST_INVOICE: '183597.06' does not equal sum of cost columns '316445.35'
+Row 71, MONTH: '4' should be '07' (previous month)
+Row 71, BIRTH DATE: '2000-04-14 00:00:00' is not in YYYYMMDD format
+Row 71, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 71, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 71, TOTAL COST_INVOICE: '34258.75' does not equal sum of cost columns '59096.19'
+Row 71, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 72, MONTH: '4' should be '07' (previous month)
+Row 72, BIRTH DATE: '1990-01-01 00:00:00' is not in YYYYMMDD format
+Row 72, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 72, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 72, TOTAL COST_INVOICE: '83877.98250000001' does not equal sum of cost columns '144760.57'
+Row 72, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 73, MONTH: '4' should be '07' (previous month)
+Row 73, BIRTH DATE: '1987-06-01 00:00:00' is not in YYYYMMDD format
+Row 73, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 73, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 73, DISCHARGE DATE: '2025-04-30 00:00:00' is not in YYYYMMDD format
+Row 73, TOTAL COST_INVOICE: '183596.75' does not equal sum of cost columns '316444.82'
+Row 73, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 73: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 74, MONTH: '4' should be '07' (previous month)
+Row 74, BIRTH DATE: '2000-11-08 00:00:00' is not in YYYYMMDD format
+Row 74, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 74, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 74, TOTAL COST_INVOICE: '34467.75' does not equal sum of cost columns '59467.06'
+Row 74, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 75, MONTH: '4' should be '07' (previous month)
+Row 75, BIRTH DATE: '1997-07-17 00:00:00' is not in YYYYMMDD format
+Row 75, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 75, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 75, TOTAL COST_INVOICE: '34258.75' does not equal sum of cost columns '59096.19'
+Row 75, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 76, MONTH: '4' should be '07' (previous month)
+Row 76, BIRTH DATE: '1996-12-24 00:00:00' is not in YYYYMMDD format
+Row 76, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 76, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 76, TOTAL COST_INVOICE: '31676.75' does not equal sum of cost columns '54514.43'
+Row 76, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 77, MONTH: '4' should be '07' (previous month)
+Row 77, BIRTH DATE: '1989-06-25 00:00:00' is not in YYYYMMDD format
+Row 77, GENDER: 'MALE' must be 'M' or 'F'
+Row 77, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 77, TOTAL COST_INVOICE: '47649.13' does not equal sum of cost columns '82649.03'
+Row 77, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 78, MONTH: '4' should be '07' (previous month)
+Row 78, BIRTH DATE: '1991-10-19 00:00:00' is not in YYYYMMDD format
+Row 78, GENDER: 'MALE' must be 'M' or 'F'
+Row 78, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 78, TOTAL COST_INVOICE: '110442.75' does not equal sum of cost columns '190290.75'
+Row 78, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 78: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 79, MONTH: '4' should be '07' (previous month)
+Row 79, BIRTH DATE: '2002-02-13 00:00:00' is not in YYYYMMDD format
+Row 79, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 79, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 79, TOTAL COST_INVOICE: '30385.75' does not equal sum of cost columns '52223.55'
+Row 79, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 80, MONTH: '4' should be '07' (previous month)
+Row 80, BIRTH DATE: '1998-09-27 00:00:00' is not in YYYYMMDD format
+Row 80, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 80, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 80, TOTAL COST_INVOICE: '21381.75' does not equal sum of cost columns '36214.32'
+Row 80, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 81, MONTH: '4' should be '07' (previous month)
+Row 81, BIRTH DATE: '1997-08-18 00:00:00' is not in YYYYMMDD format
+Row 81, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 81, HIRING DATE: '2025-01-15 00:00:00' is not in YYYYMMDD format
+Row 81, TOTAL COST_INVOICE: '47440.03' does not equal sum of cost columns '82283.21'
+Row 81, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 81: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 82, MONTH: '4' should be '07' (previous month)
+Row 82, BIRTH DATE: '2000-06-24 00:00:00' is not in YYYYMMDD format
+Row 82, GENDER: 'MALE' must be 'M' or 'F'
+Row 82, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 82, TOTAL COST_INVOICE: '46391.35888888889' does not equal sum of cost columns '80448.56'
+Row 82, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 83, MONTH: '4' should be '07' (previous month)
+Row 83, BIRTH DATE: '1983-08-17 00:00:00' is not in YYYYMMDD format
+Row 83, GENDER: 'MALE' must be 'M' or 'F'
+Row 83, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 83, TOTAL COST_INVOICE: '165652.75' does not equal sum of cost columns '285500.39'
+Row 84, MONTH: '4' should be '07' (previous month)
+Row 84, BIRTH DATE: '1991-06-10 00:00:00' is not in YYYYMMDD format
+Row 84, GENDER: 'MALE' must be 'M' or 'F'
+Row 84, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 84, TOTAL COST_INVOICE: '97500.75' does not equal sum of cost columns '168593.61'
+Row 84, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 84: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 85, MONTH: '4' should be '07' (previous month)
+Row 85, BIRTH DATE: '1983-08-12 00:00:00' is not in YYYYMMDD format
+Row 85, GENDER: 'MALE' must be 'M' or 'F'
+Row 85, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 85, TOTAL COST_INVOICE: '82700.2' does not equal sum of cost columns '142700.05'
+Row 85, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 86, MONTH: '4' should be '07' (previous month)
+Row 86, BIRTH DATE: '1999-09-29 00:00:00' is not in YYYYMMDD format
+Row 86, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 86, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 86, TOTAL COST_INVOICE: '40978.088002334494' does not equal sum of cost columns '70978.05'
+Row 86, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 87, MONTH: '4' should be '07' (previous month)
+Row 87, BIRTH DATE: '2002-07-27 00:00:00' is not in YYYYMMDD format
+Row 87, GENDER: 'MALE' must be 'M' or 'F'
+Row 87, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 87, TOTAL COST_INVOICE: '41355.24999999999' does not equal sum of cost columns '71637.89'
+Row 87, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 88, MONTH: '4' should be '07' (previous month)
+Row 88, BIRTH DATE: '1984-01-10 00:00:00' is not in YYYYMMDD format
+Row 88, GENDER: 'MALE' must be 'M' or 'F'
+Row 88, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 88, TOTAL COST_INVOICE: '248468.75' does not equal sum of cost columns '428316.58'
+Row 89, MONTH: '4' should be '07' (previous month)
+Row 89, BIRTH DATE: '2004-06-03 00:00:00' is not in YYYYMMDD format
+Row 89, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 89, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 89, TOTAL COST_INVOICE: '40768.75' does not equal sum of cost columns '70611.81'
+Row 89, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 90, MONTH: '4' should be '07' (previous month)
+Row 90, BIRTH DATE: '2000-09-12 00:00:00' is not in YYYYMMDD format
+Row 90, GENDER: 'MALE' must be 'M' or 'F'
+Row 90, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 90, TOTAL COST_INVOICE: '38341.92' does not equal sum of cost columns '66341.77'
+Row 91, MONTH: '4' should be '07' (previous month)
+Row 91, BIRTH DATE: '1996-04-24 00:00:00' is not in YYYYMMDD format
+Row 91, GENDER: 'MALE' must be 'M' or 'F'
+Row 91, HIRING DATE: '2025-01-27 00:00:00' is not in YYYYMMDD format
+Row 91, TOTAL COST_INVOICE: '40978.088002334494' does not equal sum of cost columns '70978.05'
+Row 91, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 92, MONTH: '4' should be '07' (previous month)
+Row 92, BIRTH DATE: '1998-05-17 00:00:00' is not in YYYYMMDD format
+Row 92, GENDER: 'MALE' must be 'M' or 'F'
+Row 92, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 92, TOTAL COST_INVOICE: '40977.88' does not equal sum of cost columns '70977.68'
+Row 92, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 92: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 93, MONTH: '4' should be '07' (previous month)
+Row 93, BIRTH DATE: '1983-09-01 00:00:00' is not in YYYYMMDD format
+Row 93, GENDER: 'MALE' must be 'M' or 'F'
+Row 93, HIRING DATE: '2025-01-27 00:00:00' is not in YYYYMMDD format
+Row 93, TOTAL COST_INVOICE: '47649.13' does not equal sum of cost columns '82649.03'
+Row 93, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 94, MONTH: '4' should be '07' (previous month)
+Row 94, BIRTH DATE: '1994-07-17 00:00:00' is not in YYYYMMDD format
+Row 94, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 94, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 94, TOTAL COST_INVOICE: '34467.75' does not equal sum of cost columns '59467.06'
+Row 94, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 95, MONTH: '4' should be '07' (previous month)
+Row 95, BIRTH DATE: '1999-04-07 00:00:00' is not in YYYYMMDD format
+Row 95, GENDER: 'MALE' must be 'M' or 'F'
+Row 95, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 95, TOTAL COST_INVOICE: '33177.4' does not equal sum of cost columns '57177.33'
+Row 95: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 96, MONTH: '4' should be '07' (previous month)
+Row 96, BIRTH DATE: '2000-08-24 00:00:00' is not in YYYYMMDD format
+Row 96, GENDER: 'MALE' must be 'M' or 'F'
+Row 96, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 96, TOTAL COST_INVOICE: '61436.03' does not equal sum of cost columns '106435.88'
+Row 97, MONTH: '4' should be '07' (previous month)
+Row 97, BIRTH DATE: '2001-03-01 00:00:00' is not in YYYYMMDD format
+Row 97, GENDER: 'MALE' must be 'M' or 'F'
+Row 97, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 97, TOTAL COST_INVOICE: '28011.75' does not equal sum of cost columns '48010.89'
+Row 98, MONTH: '4' should be '07' (previous month)
+Row 98, BIRTH DATE: '1987-05-30 00:00:00' is not in YYYYMMDD format
+Row 98, GENDER: 'MALE' must be 'M' or 'F'
+Row 98, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 98, TOTAL COST_INVOICE: '35758.06827956989' does not equal sum of cost columns '61756.73'
+Row 98, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 99, MONTH: '4' should be '07' (previous month)
+Row 99, BIRTH DATE: '1998-05-09 00:00:00' is not in YYYYMMDD format
+Row 99, GENDER: 'MALE' must be 'M' or 'F'
+Row 99, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 99, TOTAL COST_INVOICE: '82700.2' does not equal sum of cost columns '142700.05'
+Row 100, MONTH: '4' should be '07' (previous month)
+Row 100, BIRTH DATE: '2002-01-17 00:00:00' is not in YYYYMMDD format
+Row 100, GENDER: 'MALE' must be 'M' or 'F'
+Row 100, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 100, TOTAL COST_INVOICE: '40977.88' does not equal sum of cost columns '70977.68'
+Row 100, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 100: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 101, MONTH: '4' should be '07' (previous month)
+Row 101, BIRTH DATE: '1998-04-19 00:00:00' is not in YYYYMMDD format
+Row 101, GENDER: 'MALE' must be 'M' or 'F'
+Row 101, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 101, TOTAL COST_INVOICE: '66262.75888888889' does not equal sum of cost columns '114651.08'
+Row 101, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 101: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 102, MONTH: '4' should be '07' (previous month)
+Row 102, BIRTH DATE: '1997-09-27 00:00:00' is not in YYYYMMDD format
+Row 102, GENDER: 'MALE' must be 'M' or 'F'
+Row 102, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 102, TOTAL COST_INVOICE: '62560.75' does not equal sum of cost columns '108403.58'
+Row 103, MONTH: '4' should be '07' (previous month)
+Row 103, BIRTH DATE: '2001-12-21 00:00:00' is not in YYYYMMDD format
+Row 103, GENDER: 'MALE' must be 'M' or 'F'
+Row 103, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 103, TOTAL COST_INVOICE: '34468.479999999996' does not equal sum of cost columns '59468.35'
+Row 103, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 103: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 104, MONTH: '4' should be '07' (previous month)
+Row 104, BIRTH DATE: '2000-05-27 00:00:00' is not in YYYYMMDD format
+Row 104, GENDER: 'MALE' must be 'M' or 'F'
+Row 104, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 104, TOTAL COST_INVOICE: '40977.88' does not equal sum of cost columns '70977.68'
+Row 105, MONTH: '4' should be '07' (previous month)
+Row 105, BIRTH DATE: '1998-02-05 00:00:00' is not in YYYYMMDD format
+Row 105, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 105, HIRING DATE: '2025-02-01 00:00:00' is not in YYYYMMDD format
+Row 105, TOTAL COST_INVOICE: '61435.75' does not equal sum of cost columns '106435.39'
+Row 105, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 105: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 106, MONTH: '4' should be '07' (previous month)
+Row 106, BIRTH DATE: '1997-12-09 00:00:00' is not in YYYYMMDD format
+Row 106, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 106, HIRING DATE: '2025-01-01 00:00:00' is not in YYYYMMDD format
+Row 106, SUBFUNCTION: 'LEARNING & DEVELOPMENT' is not valid for function 'HUMAN RESOURCES'
+Row 107, MONTH: '4' should be '07' (previous month)
+Row 107, BIRTH DATE: '1993-03-09 00:00:00' is not in YYYYMMDD format
+Row 107, GENDER: 'MALE' must be 'M' or 'F'
+Row 107, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 107, DISCHARGE DATE: '2025-04-30 00:00:00' is not in YYYYMMDD format
+Row 107, TOTAL COST_INVOICE: '82700.2' does not equal sum of cost columns '142700.05'
+Row 108, MONTH: '4' should be '07' (previous month)
+Row 108, BIRTH DATE: '1996-07-05 00:00:00' is not in YYYYMMDD format
+Row 108, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 108, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 108, TOTAL COST_INVOICE: '30385.75' does not equal sum of cost columns '52223.55'
+Row 108, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 109, MONTH: '4' should be '07' (previous month)
+Row 109, BIRTH DATE: '1999-07-01 00:00:00' is not in YYYYMMDD format
+Row 109, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 109, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 109, TOTAL COST_INVOICE: '34258.75' does not equal sum of cost columns '59096.19'
+Row 109, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 110, MONTH: '4' should be '07' (previous month)
+Row 110, BIRTH DATE: '1996-11-18 00:00:00' is not in YYYYMMDD format
+Row 110, GENDER: 'MALE' must be 'M' or 'F'
+Row 110, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 110, TOTAL COST_INVOICE: '62560.75' does not equal sum of cost columns '108403.58'
+Row 111, MONTH: '4' should be '07' (previous month)
+Row 111, BIRTH DATE: '2000-02-17 00:00:00' is not in YYYYMMDD format
+Row 111, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 111, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 111, TOTAL COST_INVOICE: '28011.75' does not equal sum of cost columns '48010.89'
+Row 112, MONTH: '4' should be '07' (previous month)
+Row 112, BIRTH DATE: '2004-06-30 00:00:00' is not in YYYYMMDD format
+Row 112, GENDER: 'MALE' must be 'M' or 'F'
+Row 112, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 112, TOTAL COST_INVOICE: '34467.75' does not equal sum of cost columns '59467.06'
+Row 112, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 112: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 113, MONTH: '4' should be '07' (previous month)
+Row 113, BIRTH DATE: '1995-03-05 00:00:00' is not in YYYYMMDD format
+Row 113, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 113, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 113, TOTAL COST_INVOICE: '58383.7926125' does not equal sum of cost columns '101095.99'
+Row 113, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 113: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 114, MONTH: '4' should be '07' (previous month)
+Row 114, BIRTH DATE: '1997-12-14 00:00:00' is not in YYYYMMDD format
+Row 114, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 114, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 114, TOTAL COST_INVOICE: '82700.2' does not equal sum of cost columns '142700.05'
+Row 114, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 114: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 115, MONTH: '4' should be '07' (previous month)
+Row 115, BIRTH DATE: '1980-10-04 00:00:00' is not in YYYYMMDD format
+Row 115, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 115, HIRING DATE: '2025-02-15 00:00:00' is not in YYYYMMDD format
+Row 115, TOTAL COST_INVOICE: '75473.25' does not equal sum of cost columns '130473.16'
+Row 116, MONTH: '4' should be '07' (previous month)
+Row 116, BIRTH DATE: '2001-10-01 00:00:00' is not in YYYYMMDD format
+Row 116, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 116, HIRING DATE: '2025-02-10 00:00:00' is not in YYYYMMDD format
+Row 117, MONTH: '4' should be '07' (previous month)
+Row 117, BIRTH DATE: '1993-05-25 00:00:00' is not in YYYYMMDD format
+Row 117, GENDER: 'MALE' must be 'M' or 'F'
+Row 117, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 117, TOTAL COST_INVOICE: '91465.1' does not equal sum of cost columns '158034.24'
+Row 117, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 117: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 118, MONTH: '4' should be '07' (previous month)
+Row 118, BIRTH DATE: '1998-06-30 00:00:00' is not in YYYYMMDD format
+Row 118, GENDER: 'MALE' must be 'M' or 'F'
+Row 118, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 118, TOTAL COST_INVOICE: '105381.75' does not equal sum of cost columns '182381.42'
+Row 119, MONTH: '4' should be '07' (previous month)
+Row 119, BIRTH DATE: '1993-04-26 00:00:00' is not in YYYYMMDD format
+Row 119, GENDER: 'MALE' must be 'M' or 'F'
+Row 119, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 119, TOTAL COST_INVOICE: '91698.113125' does not equal sum of cost columns '158441.89'
+Row 119, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 119: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 120, MONTH: '4' should be '07' (previous month)
+Row 120, BIRTH DATE: '1988-07-21 00:00:00' is not in YYYYMMDD format
+Row 120, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 120, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 120, TOTAL COST_INVOICE: '77171.95' does not equal sum of cost columns '133445.04'
+Row 120, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 121, MONTH: '4' should be '07' (previous month)
+Row 121, BIRTH DATE: '1981-09-29 00:00:00' is not in YYYYMMDD format
+Row 121, GENDER: 'MALE' must be 'M' or 'F'
+Row 121, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 121, TOTAL COST_INVOICE: '207060.75' does not equal sum of cost columns '356908.49'
+Row 121, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 122, MONTH: '4' should be '07' (previous month)
+Row 122, BIRTH DATE: '1985-01-19 00:00:00' is not in YYYYMMDD format
+Row 122, GENDER: 'MALE' must be 'M' or 'F'
+Row 122, HIRING DATE: '2025-03-09 00:00:00' is not in YYYYMMDD format
+Row 122, TOTAL COST_INVOICE: '54320.18' does not equal sum of cost columns '94320.04'
+Row 123, MONTH: '4' should be '07' (previous month)
+Row 123, BIRTH DATE: '2004-03-01 00:00:00' is not in YYYYMMDD format
+Row 123, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 123, HIRING DATE: '2024-12-01 00:00:00' is not in YYYYMMDD format
+Row 124, MONTH: '4' should be '07' (previous month)
+Row 124, BIRTH DATE: '2000-11-19 00:00:00' is not in YYYYMMDD format
+Row 124, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 124, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 124, TOTAL COST_INVOICE: '47649.13' does not equal sum of cost columns '82649.03'
+Row 124: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 125, MONTH: '4' should be '07' (previous month)
+Row 125, BIRTH DATE: '2002-03-02 00:00:00' is not in YYYYMMDD format
+Row 125, GENDER: 'MALE' must be 'M' or 'F'
+Row 125, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 125, TOTAL COST_INVOICE: '40977.88' does not equal sum of cost columns '70977.68'
+Row 125, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 125: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 126, MONTH: '4' should be '07' (previous month)
+Row 126, BIRTH DATE: '1996-04-16 00:00:00' is not in YYYYMMDD format
+Row 126, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 126, HIRING DATE: '2025-03-15 00:00:00' is not in YYYYMMDD format
+Row 126, TOTAL COST_INVOICE: '49586.18425' does not equal sum of cost columns '86037.91'
+Row 126, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 127, MONTH: '4' should be '07' (previous month)
+Row 127, BIRTH DATE: '1989-06-20 00:00:00' is not in YYYYMMDD format
+Row 127, GENDER: 'MALE' must be 'M' or 'F'
+Row 127, HIRING DATE: '2025-03-01 00:00:00' is not in YYYYMMDD format
+Row 127, TOTAL COST_INVOICE: '97758.72399999999' does not equal sum of cost columns '169044.93'
+Row 127, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 127: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 128, MONTH: '4' should be '07' (previous month)
+Row 128, BIRTH DATE: '2001-09-26 00:00:00' is not in YYYYMMDD format
+Row 128, GENDER: 'MALE' must be 'M' or 'F'
+Row 128, HIRING DATE: '2025-03-15 00:00:00' is not in YYYYMMDD format
+Row 128, TOTAL COST_INVOICE: '96042.5' does not equal sum of cost columns '166042.40'
+Row 129, MONTH: '4' should be '07' (previous month)
+Row 129, BIRTH DATE: '1999-08-20 00:00:00' is not in YYYYMMDD format
+Row 129, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 129, HIRING DATE: '2025-03-15 00:00:00' is not in YYYYMMDD format
+Row 129, TOTAL COST_INVOICE: '54320.18' does not equal sum of cost columns '94320.04'
+Row 130, MONTH: '4' should be '07' (previous month)
+Row 130, BIRTH DATE: '1987-09-08 00:00:00' is not in YYYYMMDD format
+Row 130, GENDER: 'MALE' must be 'M' or 'F'
+Row 130, HIRING DATE: '2025-03-15 00:00:00' is not in YYYYMMDD format
+Row 130, TOTAL COST_INVOICE: '131355.75' does not equal sum of cost columns '226355.21'
+Row 131, MONTH: '4' should be '07' (previous month)
+Row 131, BIRTH DATE: '1995-03-01 00:00:00' is not in YYYYMMDD format
+Row 131, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 131, HIRING DATE: '2025-03-15 00:00:00' is not in YYYYMMDD format
+Row 131, TOTAL COST_INVOICE: '41089.8522222222' does not equal sum of cost columns '71173.57'
+Row 131, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 132, MONTH: '4' should be '07' (previous month)
+Row 132, BIRTH DATE: '1997-03-13 00:00:00' is not in YYYYMMDD format
+Row 132, GENDER: 'MALE' must be 'M' or 'F'
+Row 132, HIRING DATE: '2025-03-15 00:00:00' is not in YYYYMMDD format
+Row 132, TOTAL COST_INVOICE: '110652.43' does not equal sum of cost columns '190652.34'
+Row 132, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 132: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 133, MONTH: '4' should be '07' (previous month)
+Row 133, BIRTH DATE: '1982-05-22 00:00:00' is not in YYYYMMDD format
+Row 133, GENDER: 'MALE' must be 'M' or 'F'
+Row 133, HIRING DATE: '2025-04-06 00:00:00' is not in YYYYMMDD format
+Row 133, TOTAL COST_INVOICE: '170285.0' does not equal sum of cost columns '296614.82'
+Row 134, MONTH: '4' should be '07' (previous month)
+Row 134, BIRTH DATE: '1996-09-30 00:00:00' is not in YYYYMMDD format
+Row 134, GENDER: 'MALE' must be 'M' or 'F'
+Row 134, HIRING DATE: '2025-04-06 00:00:00' is not in YYYYMMDD format
+Row 134, TOTAL COST_INVOICE: '45719.941666666666' does not equal sum of cost columns '79273.92'
+Row 134, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 134: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 135, MONTH: '4' should be '07' (previous month)
+Row 135, BIRTH DATE: '1999-09-02 00:00:00' is not in YYYYMMDD format
+Row 135, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 135, HIRING DATE: '2025-04-07 00:00:00' is not in YYYYMMDD format
+Row 135, TOTAL COST_INVOICE: '33326.054' does not equal sum of cost columns '57441.12'
+Row 135, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 136, MONTH: '4' should be '07' (previous month)
+Row 136, BIRTH DATE: '1996-03-25 00:00:00' is not in YYYYMMDD format
+Row 136, GENDER: 'MALE' must be 'M' or 'F'
+Row 136, HIRING DATE: '2025-04-07 00:00:00' is not in YYYYMMDD format
+Row 136, TOTAL COST_INVOICE: '77377.75' does not equal sum of cost columns '133805.09'
+Row 136, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 136: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 137, MONTH: '4' should be '07' (previous month)
+Row 137, BIRTH DATE: '2000-07-14 00:00:00' is not in YYYYMMDD format
+Row 137, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 137, HIRING DATE: '2025-04-07 00:00:00' is not in YYYYMMDD format
+Row 137, TOTAL COST_INVOICE: '28118.534' does not equal sum of cost columns '48200.37'
+Row 137: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 138, MONTH: '4' should be '07' (previous month)
+Row 138, BIRTH DATE: '1993-08-22 00:00:00' is not in YYYYMMDD format
+Row 138, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 138, HIRING DATE: '2025-04-07 00:00:00' is not in YYYYMMDD format
+Row 138, TOTAL COST_INVOICE: '60922.350000000006' does not equal sum of cost columns '105537.20'
+Row 138, SUBFUNCTION: 'PRODUCTS & SERVICES' is not valid for function 'DIGITAL OPERATIONS'
+Row 138: Function 'Digital Operations' must have DIGITAL value as 'Y'
+Row 139, MONTH: '4' should be '07' (previous month)
+Row 139, BIRTH DATE: '1990-09-04 00:00:00' is not in YYYYMMDD format
+Row 139, GENDER: 'MALE' must be 'M' or 'F'
+Row 139, HIRING DATE: '2025-04-07 00:00:00' is not in YYYYMMDD format
+Row 139, TOTAL COST_INVOICE: '33326.054' does not equal sum of cost columns '57441.12'
+Row 139, SUBFUNCTION: 'OPERATIONS' is not valid for function 'OPERATIONS'
+Row 140, MONTH: '4' should be '07' (previous month)
+Row 140, BIRTH DATE: '1976-10-07 00:00:00' is not in YYYYMMDD format
+Row 140, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 140, HIRING DATE: '2025-04-01 00:00:00' is not in YYYYMMDD format
+Row 140, TOTAL COST_INVOICE: '234875.75' does not equal sum of cost columns '404875.45'
+Row 141, MONTH: '4' should be '07' (previous month)
+Row 141, BIRTH DATE: '1986-03-30 00:00:00' is not in YYYYMMDD format
+Row 141, GENDER: 'MALE' must be 'M' or 'F'
+Row 141, HIRING DATE: '2025-04-16 00:00:00' is not in YYYYMMDD format
+Row 141, TOTAL COST_INVOICE: '104346.415' does not equal sum of cost columns '182903.72'
+Row 142, MONTH: '4' should be '07' (previous month)
+Row 142, BIRTH DATE: '1975-10-29 00:00:00' is not in YYYYMMDD format
+Row 142, GENDER: 'FEMALE' must be 'M' or 'F'
+Row 142, HIRING DATE: '2025-04-04 00:00:00' is not in YYYYMMDD format
+Row 142, TOTAL COST_INVOICE: '246208.47299999997' does not equal sum of cost columns '427544.84'
+
+Total errors found: 826
